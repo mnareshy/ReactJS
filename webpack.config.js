@@ -11,7 +11,7 @@ var config = {
 		output: {
 			path: DIST_DIR + "/app",
 			filename: "bundle.js",
-			publcipath: "/app/"
+			publicpath: "/app/"
 			
 		},
 		
@@ -30,4 +30,9 @@ var config = {
 			
 			
 		}
-}
+};
+
+module.exports = config;
+
+
+
