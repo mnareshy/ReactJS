@@ -29,7 +29,9 @@ Setup React
 
 10. update package.json scrips to start the node
 
-11.
+11. npm start
+
+12. see the brouser consle for the log
 
 
 
