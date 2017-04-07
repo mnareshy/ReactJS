@@ -1,0 +1,40 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+   
+   "start":"npm run build",
+   "build":"webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+   "build:prod":"ebpack -p && cp src/index.html dist/index.html"
+   
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnareshy/ReactJS.git"
+  },
+  "author": "sairam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnareshy/ReactJS/issues"
+  },
+  "homepage": "https://github.com/mnareshy/ReactJS#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2105": "0.0.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
