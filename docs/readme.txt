@@ -17,7 +17,7 @@ Setup React
 
 5. npm install react react-dom --save
 
-6. npm install webpack webpack-dev-server babel-core babel-loader babel-preset-es2105 babel-preset-react babel-preset-stage-2 --save-dev
+6. npm install webpack webpack-dev-server babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-2 --save-dev
 
 7. create index.html
 

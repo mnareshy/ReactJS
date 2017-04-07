@@ -11,21 +11,26 @@ var config = {
 		output: {
 			path: DIST_DIR + "/app",
 			filename: "bundle.js",
-			publicpath: "/app/"
+			publicPath: "/app/"
+				
+				
 			
 		},
+
 		
+			
 		module: {
 			
 			loaders: [
 			          {
 			        	  test: /\.js?/,
 			        	  include: SRC_DIR,
-			        	  loader:"bebel-loader",
+			        	  loader:"babel-loader",
 			        	  query: {
 			        		  
-			        		  preset: ["react", "es2015", "stage-2"]
-			        	  }
+			        		  presets: ["react", "es2015", "stage-2"]
+			        	  },
+			        	 
 			          }]
 			
 			
